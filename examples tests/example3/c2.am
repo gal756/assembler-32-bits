@@ -1,0 +1,18 @@
+.entry LOOP
+.entry LENGTH
+.extern L3
+.extern W
+	
+MAIN:	mov S1.1 ,W
+	add r9,GAL
+LOOP:	jmp W
+	prn	#-5
+	sub 	r1,r4
+		inc 	k
+		mov 	S1.3,r3
+	bne	L3,r1
+END:	hlt
+STR: 	.string "abcdef"
+LENGTH: .data 6,-9,15
+k:	.data 22
+S1:	.struct 8,"ab" 
