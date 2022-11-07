@@ -16,4 +16,3 @@ This project was done by @Gal Evgi and @Misael rosetsky.
 7. `globals.h` - contains type and constant definitions.
 8. `output` -  contains methods for writing output files: ".ob",".ent" .
 
-THIS PROJECT WRITE BY GAL EVGI AND MISHEL IN THE OPEN UNIVERSITY OF ISRAEL
